@@ -1,0 +1,262 @@
+/* 	Desarrollado por: Ing. Hernán Zambrano.
+	Sitio web: www.iz.com.ve
+	Correo: zambranoplus@gmail.com
+	Twitter: @zambranoplus
+	Móvil: 0414-7534883
+	Táchira - Venezuela
+*/
+
+*
+{
+	background: #FFFFFF;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Verdana, Helvetica;
+}
+
+.Main
+{
+	width: 100%;
+}
+
+.seccion1, .seccion2, .seccion3
+{
+	vertical-align: top;
+	display: inline-block;
+	height: auto;	
+	width: 28%;
+	text-align: center;
+}
+
+.seccion2
+{
+	 width: 43%;
+}
+
+.final
+{
+	width: 100%;
+}
+
+.titulo1
+{
+	color: #6A5ACD;
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin: 5px;
+}
+
+.infor1
+{
+	color: #444444;
+	display: block;
+	font-size: 13px;
+	margin: 5px auto;
+	line-height: 20px; 
+	text-align: justify;
+	margin: 8px;
+}
+
+.etiqueta1
+{
+	display: block;
+	color: #000080;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold; 
+	text-align: center;
+	margin: 8px;
+}
+
+.etiqueta2
+{
+	display: block;
+	color: #696969;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px;
+}
+
+.iconosRedes
+{
+	text-align: center;
+}
+
+.iconosRedes>li
+{
+	display: inline;
+}
+
+.iconos
+{
+	margin: 0 5px 0 5px;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	padding: 3px;
+	text-align: center;
+	height: 20px;
+	width: 20px;
+}
+
+.iconos:hover
+{
+	border: 2px solid #CCCCCC;
+}
+
+.fecha
+{
+	display: block;
+	color: #000088;
+	font-size: 12px;
+	text-align: right;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.fieldset1
+{
+	box-shadow: 1px 1px 33px -1px rgba(128,124,128,1);
+	border-radius: 10px;
+	padding: 10px 0 0 0; 
+	margin: 5px 50px 50px 50px; 
+	height: auto; 
+}
+
+.fieldset2
+{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+	height: auto;
+	margin: 10px auto;
+	width: 80%;
+}
+
+.fieldset3
+{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+	height: auto;
+	margin: 50px auto;
+	width: 80%;
+}
+
+.enlace
+{
+	display: block;
+	font-family: Helvetica, Verdana;
+	text-decoration: none;
+	font-size: 13px;
+	color: #696969;
+	line-height: 15px;
+	margin: 8px 20px 8px 20px;
+}
+
+.enlace:hover
+{
+	color: #1C1C1C;
+}
+
+.legend1
+{
+	text-align: left;
+	padding: 5px;
+	margin: 5px 5px 0 5px;
+}
+
+.imagen1
+{
+	width: 400px; 
+	height: 550px; 
+}
+
+.publicidad
+{
+	margin: 20px auto;
+}
+
+.publicidad1
+{
+	margin: 1px auto;
+}
+
+.botonAPP
+{
+	box-shadow: -6px 6px 10px -1px rgba(0,0,0,0.2);	/* Sombra del botón en navegador estandar */
+	margin: 20px auto;
+}
+
+.compartir
+{
+	text-align: left;
+	margin: 10px 20px 30px 30px;
+}
+
+@media (max-device-width:1200px), screen and (max-width:1200px){
+
+	.seccion3
+	{
+		display: none;
+	}
+
+	.seccion2
+	{
+		width: 60%;
+	}
+
+	.seccion1
+	{
+		width: 39%;
+	}
+
+	.fieldset1
+	{
+		box-shadow: 1px 1px 10px -1px rgba(128,124,128,1);
+		margin: 20px; 
+	}
+	
+}
+
+@media (max-device-width:768px), screen and (max-width:768px){
+
+	.seccion1
+	{
+		display: none;
+	}
+
+	.seccion2
+	{
+		width: 100%;
+	}
+
+}
+
+@media (max-device-width:480px), screen and (max-width:480px){
+
+	.fecha
+	{
+		display: none;
+	}
+
+	.fieldset1
+	{
+		box-shadow: none;
+	}
+
+	.compartir
+	{
+		text-align: center;
+		margin: 10px 10px 100px 10px;
+	}
+}
